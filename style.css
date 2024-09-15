@@ -1,0 +1,125 @@
+/* Existing styles */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #200086;
+    padding: 10px;
+}
+
+.icon i {
+    font-size: 40px;
+}
+
+.home-text {
+    color: white;
+    font-size: 18px;
+    margin: 0;
+}
+
+.back1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #eeeeee;
+}
+
+.back1 p, .back1 label {
+    font-size: 18px;
+    color: black;
+    margin: 10px;
+}
+
+.card-img-top {
+    max-width: 10%;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.card-group-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #210086;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+}
+
+.card img {
+    max-width: 100%;
+    max-height: 200px;
+}
+
+.card-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer {
+    background-color: #200086;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.footer p {
+    color: white;
+    margin: 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .icon i {
+        font-size: 30px;
+    }
+
+    .home-text {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .back1 p {
+        font-size: 24px;
+    }
+
+    .back1 input {
+        font-size: 16px;
+        width: 80%; 
+    }
+
+    .card-group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%; 
+        margin-bottom: 15px; 
+    }
+
+    .card img {
+        max-height: 150px; 
+    }
+
+    .footer {
+        height: 40px;
+    }
+
+    .footer p {
+        font-size: 14px;
+    }
+}
